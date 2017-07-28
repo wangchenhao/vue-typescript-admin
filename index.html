@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>admin-ts</title>
+</head>
+
+<body>
+  <div id="loading" class="el-loading-mask">
+    <div class="el-loading-spinner">
+      <svg viewBox="25 25 50 50" class="circular">
+        <circle cx="50" cy="50" r="20" fill="none" class="path"></circle>
+      </svg>
+      <p class="el-loading-text">拼命加载中···</p>
+    </div>
+  </div>
+  <div id="app" v-cloak>
+    <transition name="fade" appear>
+      <keep-alive>
+        <router-view></router-view>
+      </keep-alive>
+    </transition>
+  </div>
+  <!-- built files will be auto injected -->
+</body>
+
+</html>

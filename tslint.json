@@ -1,0 +1,16 @@
+{
+    "extends": "tslint-config-standard",
+    "rules": {
+        "arrow-parens": false,
+        "generator-star-spacing": false,
+        "space-before-function-paren": false,
+        "no-consecutive-blank-lines": false,
+        "await-promise": false,
+        "no-unused-variable": false,
+        "no-use-before-declare": false,
+        "return-undefined": false,
+        "no-floating-promises": false,
+        "no-unnecessary-qualifier": false,
+        "strict-type-predicates": false
+    }
+}

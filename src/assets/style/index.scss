@@ -1,0 +1,71 @@
+@import './_base.scss';
+.wrapper {
+  width: 100%;
+  height: 100%;
+  min-width: 1024px;
+}
+
+.page-navigation,
+.page-wrapper {
+  height: 100%;
+  overflow: hidden;
+}
+
+.page-wrapper {
+  transition: margin .5s, width .5s;
+}
+
+.page-navigation {
+  width: 240px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  overflow-y: scroll;
+  transition: width .5s;
+}
+
+.wrapper.hide-navbar.page-navigation {
+  width: 0;
+}
+
+.wrapper.hide-navbar.page-nav {
+  opacity: 0;
+}
+
+.wrapper.hide-navbar.page-wrapper {
+  width: 100%;
+  min-width: 1024px;
+  margin-left: 0;
+}
+
+.page-wrapper {
+  margin-left: 240px;
+  width: calc(100% - 240px);
+  min-width: calc(1024px - 240px);
+}
+
+.page-header {
+  height: 49px;
+  background-color: #fff;
+  border-bottom: 1px solid #e3d3d3;
+}
+
+.page-content {
+  position: relative;
+  height: calc(100% - 90px);
+  background: #f1f4f5;
+}
+
+.page-footer {
+  height: 39px;
+  border-top: 1px solid rgb(231, 234, 236);
+  background-color: rgb(238, 241, 246);
+}
+
+.footer {
+  height: 100%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
