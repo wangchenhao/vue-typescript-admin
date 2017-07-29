@@ -7,5 +7,13 @@ declare module 'vue/types/vue' {
     $_: LoDashStatic
     $cookie: any
     $http: AxiosStatic | AxiosInstance
+    // element-ui
+    $loading: Function
+    $message: Function
+    $notify: Function
+    $msgbox: Function
+    $alert: Function
+    $prompt: Function
+    $confirm: Function
   }
 }

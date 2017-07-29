@@ -1,3 +1,8 @@
+/**
+ * 获取到 common 目录下所有定义的组件
+ * 返回 组件对象集合
+ * 测试阶段 后面如果问题太多将 改为手动引入
+ */
 import _ from 'lodash'
 
 const files: any = require.context('.', true, /\.ts$/)

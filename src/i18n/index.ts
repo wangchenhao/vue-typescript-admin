@@ -20,15 +20,14 @@ function addLang(key: string, a: object, b: object) {
 addLang('en', en, eleEN)
 addLang('zh-CN', zhCN, eleZh)
 
-let browserLanguage: string = window.navigator.language
+let browserLanguage: string = Cookies.get('lang') || window.navigator.language
 
-const lang = Cookies.get('lang') || (browserLanguage in locales ? browserLanguage : 'en')
+const lang = browserLanguage in locales ? browserLanguage : 'en'
 
-console.log(lang)
+console.log('系统语言:' + lang)
 
 const i18n = new VueI18n({
-  // locale: lang,
-  locale: 'en',
+  locale: lang,
   messages: locales
 })
 

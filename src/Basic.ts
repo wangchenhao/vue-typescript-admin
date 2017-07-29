@@ -8,6 +8,7 @@ import config from './config'
 import Common from './common'
 import i18n from './i18n'
 import Http from './Http'
+import * as Filters from './Filters'
 
 Vue.config.productionTip = false
 
@@ -16,7 +17,7 @@ Vue.prototype.$cookie = Cookie
 Vue.prototype.$http = Http
 
 Vue.use(ElementUI, {
-  i18n: (key: string, value: object) => i18n.vm._t(key, value)
+  i18n: (key: string) => i18n.t(key)
 })
 
 // 公共配置文件 设置组件前缀
@@ -25,6 +26,10 @@ const cPrefix = config.Component.prefix
 _.forEach(Common, (value, key) => {
   const cName: string = value.options.name
   Vue.component(cPrefix + cName, value)
+})
+
+_.forEach(Filters, (value, key) => {
+  Vue.filter(key, value)
 })
 
 export { Vue, i18n }

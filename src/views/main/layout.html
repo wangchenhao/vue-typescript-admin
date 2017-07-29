@@ -7,6 +7,9 @@
       <!-- <zj-header></zj-header> -->
     </div>
     <div class="page-content">
+      {{ new Date() | dateFormat}} {{$t('warmReminder')}}
+      <el-button type="text" @click="open">点击打开 Message Box</el-button>
+      <el-button type="text" @click="onSwitch">点击切换语言</el-button>
     </div>
     <div class="page-footer">
       <footer class="footer">
