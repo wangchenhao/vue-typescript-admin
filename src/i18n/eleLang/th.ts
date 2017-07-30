@@ -2,7 +2,7 @@ export default {
   el: {
     colorpicker: {
       confirm: 'ตกลง',
-      clear: 'ล้างข้อมูล'
+      clear: 'ล้างข้อมูล',
     },
     datepicker: {
       now: 'ตอนนี้',
@@ -37,7 +37,7 @@ export default {
         wed: 'พ',
         thu: 'พฤ',
         fri: 'ศ',
-        sat: 'ส'
+        sat: 'ส',
       },
       months: {
         jan: 'มกรา',
@@ -51,46 +51,46 @@ export default {
         sep: 'กันยา',
         oct: 'ตุลา',
         nov: 'พฤศจิกา',
-        dec: 'ธันวา'
-      }
+        dec: 'ธันวา',
+      },
     },
     select: {
       loading: 'กำลังโหลด',
       noMatch: 'ไม่พบข้อมูลที่ตรงกัน',
       noData: 'ไม่พบข้อมูล',
-      placeholder: 'เลือก'
+      placeholder: 'เลือก',
     },
     cascader: {
       noMatch: 'ไม่พบข้อมูลที่ตรงกัน',
       loading: 'กำลังโหลด',
-      placeholder: 'เลือก'
+      placeholder: 'เลือก',
     },
     pagination: {
       goto: 'ไปที่',
       pagesize: '/หน้า',
       total: 'ทั้งหมด {total}',
-      pageClassifier: ''
+      pageClassifier: '',
     },
     messagebox: {
       title: 'ข้อความ',
       confirm: 'ตกลง',
       cancel: 'ยกเลิก',
-      error: 'คุณป้อนข้อมูลไม่ถูกต้อง'
+      error: 'คุณป้อนข้อมูลไม่ถูกต้อง',
     },
     upload: {
       delete: 'ลบ',
       preview: 'ตัวอย่าง',
-      continue: 'ทำต่อ'
+      continue: 'ทำต่อ',
     },
     table: {
       emptyText: 'ไม่พบข้อมูล',
       confirmFilter: 'ยืนยัน',
       resetFilter: 'รีเซ็ต',
       clearFilter: 'ทั้งหมด',
-      sumText: 'Sum' // to be translated
+      sumText: 'Sum', // to be translated
     },
     tree: {
-      emptyText: 'ไม่พบข้อมูล'
+      emptyText: 'ไม่พบข้อมูล',
     },
     transfer: {
       noMatch: 'ไม่พบข้อมูลที่ตรงกัน',
@@ -98,7 +98,7 @@ export default {
       titles: ['List 1', 'List 2'], // to be translated
       filterPlaceholder: 'Enter keyword', // to be translated
       noCheckedFormat: '{total} items', // to be translated
-      hasCheckedFormat: '{checked}/{total} checked' // to be translated
-    }
-  }
-}
+      hasCheckedFormat: '{checked}/{total} checked', // to be translated
+    },
+  },
+};

@@ -2,7 +2,7 @@ export default {
   el: {
     colorpicker: {
       confirm: '確認',
-      clear: '清空'
+      clear: '清空',
     },
     datepicker: {
       now: '現在',
@@ -37,7 +37,7 @@ export default {
         wed: '三',
         thu: '四',
         fri: '五',
-        sat: '六'
+        sat: '六',
       },
       months: {
         jan: '一月',
@@ -51,46 +51,46 @@ export default {
         sep: '九月',
         oct: '十月',
         nov: '十一月',
-        dec: '十二月'
-      }
+        dec: '十二月',
+      },
     },
     select: {
       loading: '加載中',
       noMatch: '無匹配資料',
       noData: '無資料',
-      placeholder: '請選擇'
+      placeholder: '請選擇',
     },
     cascader: {
       noMatch: '無匹配資料',
       loading: '加載中',
-      placeholder: '請選擇'
+      placeholder: '請選擇',
     },
     pagination: {
       goto: '前往',
       pagesize: '項/頁',
       total: '共 {total} 項',
-      pageClassifier: '頁'
+      pageClassifier: '頁',
     },
     messagebox: {
       title: '提示',
       confirm: '確定',
       cancel: '取消',
-      error: '輸入的資料不符規定!'
+      error: '輸入的資料不符規定!',
     },
     upload: {
       delete: '刪除',
       preview: '查看圖片',
-      continue: '繼續上傳'
+      continue: '繼續上傳',
     },
     table: {
       emptyText: '暫無資料',
       confirmFilter: '篩選',
       resetFilter: '重置',
       clearFilter: '全部',
-      sumText: 'Sum' // to be translated
+      sumText: 'Sum', // to be translated
     },
     tree: {
-      emptyText: '暫無資料'
+      emptyText: '暫無資料',
     },
     transfer: {
       noMatch: '無匹配資料',
@@ -98,7 +98,7 @@ export default {
       titles: ['List 1', 'List 2'], // to be translated
       filterPlaceholder: 'Enter keyword', // to be translated
       noCheckedFormat: '{total} items', // to be translated
-      hasCheckedFormat: '{checked}/{total} checked' // to be translated
-    }
-  }
-}
+      hasCheckedFormat: '{checked}/{total} checked', // to be translated
+    },
+  },
+};

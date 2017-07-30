@@ -2,7 +2,7 @@ export default {
   el: {
     colorpicker: {
       confirm: 'Pilih',
-      clear: 'Kosongkan'
+      clear: 'Kosongkan',
     },
     datepicker: {
       now: 'Sekarang',
@@ -37,7 +37,7 @@ export default {
         wed: 'Rab',
         thu: 'Kam',
         fri: 'Jum',
-        sat: 'Sab'
+        sat: 'Sab',
       },
       months: {
         jan: 'Jan',
@@ -51,46 +51,46 @@ export default {
         sep: 'Sep',
         oct: 'Okt',
         nov: 'Nov',
-        dec: 'Des'
-      }
+        dec: 'Des',
+      },
     },
     select: {
       loading: 'Memuat',
       noMatch: 'Tidak ada data yg cocok',
       noData: 'Tidak ada data',
-      placeholder: 'Pilih'
+      placeholder: 'Pilih',
     },
     cascader: {
       noMatch: 'Tidak ada data yg cocok',
       loading: 'Memuat',
-      placeholder: 'Pilih'
+      placeholder: 'Pilih',
     },
     pagination: {
       goto: 'Pergi ke',
       pagesize: '/laman',
       total: 'Total {total}',
-      pageClassifier: ''
+      pageClassifier: '',
     },
     messagebox: {
       title: 'Pesan',
       confirm: 'Ya',
       cancel: 'Batal',
-      error: 'Masukan ilegal'
+      error: 'Masukan ilegal',
     },
     upload: {
       delete: 'Hapus',
       preview: 'Pratinjau',
-      continue: 'Lanjutkan'
+      continue: 'Lanjutkan',
     },
     table: {
       emptyText: 'Tidak ada data',
       confirmFilter: 'Konfirmasi',
       resetFilter: 'Atur ulang',
       clearFilter: 'Semua',
-      sumText: 'Jml'
+      sumText: 'Jml',
     },
     tree: {
-      emptyText: 'Tidak ada data'
+      emptyText: 'Tidak ada data',
     },
     transfer: {
       noMatch: 'Tidak ada data yg cocok',
@@ -98,7 +98,7 @@ export default {
       titles: ['Senarai 1', 'Senarai 2'],
       filterPlaceholder: 'Masukan kata kunci',
       noCheckedFormat: '{total} butir',
-      hasCheckedFormat: '{checked}/{total} terpilih'
-    }
-  }
-}
+      hasCheckedFormat: '{checked}/{total} terpilih',
+    },
+  },
+};

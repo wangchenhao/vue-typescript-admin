@@ -2,7 +2,7 @@ export default {
   el: {
     colorpicker: {
       confirm: 'OK',
-      clear: 'Tühjenda'
+      clear: 'Tühjenda',
     },
     datepicker: {
       now: 'Praegu',
@@ -37,7 +37,7 @@ export default {
         wed: 'K',
         thu: 'N',
         fri: 'R',
-        sat: 'L'
+        sat: 'L',
       },
       months: {
         jan: 'Jaan',
@@ -51,46 +51,46 @@ export default {
         sep: 'Sept',
         oct: 'Okt',
         nov: 'Nov',
-        dec: 'Dets'
-      }
+        dec: 'Dets',
+      },
     },
     select: {
       loading: 'Laadimine',
       noMatch: 'Sobivad andmed puuduvad',
       noData: 'Andmed puuduvad',
-      placeholder: 'Vali'
+      placeholder: 'Vali',
     },
     cascader: {
       noMatch: 'Sobivad andmed puuduvad',
       loading: 'Laadimine',
-      placeholder: 'Vali'
+      placeholder: 'Vali',
     },
     pagination: {
       goto: 'Mine lehele',
       pagesize: '/page',
       total: 'Kokku {total}',
-      pageClassifier: ''
+      pageClassifier: '',
     },
     messagebox: {
       title: 'Teade',
       confirm: 'OK',
       cancel: 'Tühista',
-      error: 'Vigane sisend'
+      error: 'Vigane sisend',
     },
     upload: {
       delete: 'Kustuta',
       preview: 'Eelvaate',
-      continue: 'Jätka'
+      continue: 'Jätka',
     },
     table: {
       emptyText: 'Andmed puuduvad',
       confirmFilter: 'Kinnita',
       resetFilter: 'Taasta',
       clearFilter: 'Kõik',
-      sumText: 'Summa'
+      sumText: 'Summa',
     },
     tree: {
-      emptyText: 'Andmed puuduvad'
+      emptyText: 'Andmed puuduvad',
     },
     transfer: {
       noMatch: 'Sobivad andmed puuduvad',
@@ -98,7 +98,7 @@ export default {
       titles: ['Loend 1', 'Loend 2'],
       filterPlaceholder: 'Sisesta märksõna',
       noCheckedFormat: '{total} objekti',
-      hasCheckedFormat: '{checked}/{total} valitud'
-    }
-  }
-}
+      hasCheckedFormat: '{checked}/{total} valitud',
+    },
+  },
+};

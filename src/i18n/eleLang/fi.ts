@@ -2,7 +2,7 @@ export default {
   el: {
     colorpicker: {
       confirm: 'OK',
-      clear: 'Tyhjennä'
+      clear: 'Tyhjennä',
     },
     datepicker: {
       now: 'Nyt',
@@ -37,7 +37,7 @@ export default {
         wed: 'ke',
         thu: 'to',
         fri: 'pe',
-        sat: 'la'
+        sat: 'la',
       },
       months: {
         jan: 'tam',
@@ -51,46 +51,46 @@ export default {
         sep: 'syy',
         oct: 'lok',
         nov: 'mar',
-        dec: 'jou'
-      }
+        dec: 'jou',
+      },
     },
     select: {
       loading: 'Lataa',
       noMatch: 'Ei vastaavia tietoja',
       noData: 'Ei tietoja',
-      placeholder: 'Valitse'
+      placeholder: 'Valitse',
     },
     cascader: {
       noMatch: 'Ei vastaavia tietoja',
       loading: 'Lataa',
-      placeholder: 'Valitse'
+      placeholder: 'Valitse',
     },
     pagination: {
       goto: 'Mene',
       pagesize: '/sivu',
       total: 'Yhteensä {total}',
-      pageClassifier: ''
+      pageClassifier: '',
     },
     messagebox: {
       title: 'Viesti',
       confirm: 'OK',
       cancel: 'Peruuta',
-      error: 'Virheellinen syöte'
+      error: 'Virheellinen syöte',
     },
     upload: {
       delete: 'Poista',
       preview: 'Esikatsele',
-      continue: 'Jatka'
+      continue: 'Jatka',
     },
     table: {
       emptyText: 'Ei tietoja',
       confirmFilter: 'Vahvista',
       resetFilter: 'Tyhjennä',
       clearFilter: 'Kaikki',
-      sumText: 'Sum' // to be translated
+      sumText: 'Sum', // to be translated
     },
     tree: {
-      emptyText: 'Ei tietoja'
+      emptyText: 'Ei tietoja',
     },
     transfer: {
       noMatch: 'Ei vastaavia tietoja',
@@ -98,7 +98,7 @@ export default {
       titles: ['List 1', 'List 2'], // to be translated
       filterPlaceholder: 'Enter keyword', // to be translated
       noCheckedFormat: '{total} items', // to be translated
-      hasCheckedFormat: '{checked}/{total} checked' // to be translated
-    }
-  }
-}
+      hasCheckedFormat: '{checked}/{total} checked', // to be translated
+    },
+  },
+};

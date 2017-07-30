@@ -2,7 +2,7 @@ export default {
   el: {
     colorpicker: {
       confirm: 'OK',
-      clear: 'Изчисти'
+      clear: 'Изчисти',
     },
     datepicker: {
       now: 'Сега',
@@ -37,7 +37,7 @@ export default {
         wed: 'Сря',
         thu: 'Чет',
         fri: 'Пет',
-        sat: 'Съб'
+        sat: 'Съб',
       },
       months: {
         jan: 'Яну',
@@ -51,46 +51,46 @@ export default {
         sep: 'Сеп',
         oct: 'Окт',
         nov: 'Ное',
-        dec: 'Дек'
-      }
+        dec: 'Дек',
+      },
     },
     select: {
       loading: 'Зареждане',
       noMatch: 'Няма намерени',
       noData: 'Няма данни',
-      placeholder: 'Избери'
+      placeholder: 'Избери',
     },
     cascader: {
       noMatch: 'Няма намерени',
       loading: 'Зареждане',
-      placeholder: 'Избери'
+      placeholder: 'Избери',
     },
     pagination: {
       goto: 'Иди на',
       pagesize: '/страница',
       total: 'Общо {total}',
-      pageClassifier: ''
+      pageClassifier: '',
     },
     messagebox: {
       title: 'Съобщение',
       confirm: 'ОК',
       cancel: 'Откажи',
-      error: 'Невалидни данни'
+      error: 'Невалидни данни',
     },
     upload: {
       delete: 'Изтрий',
       preview: 'Прегледай',
-      continue: 'Продължи'
+      continue: 'Продължи',
     },
     table: {
       emptyText: 'Няма данни',
       confirmFilter: 'Потвърди',
       resetFilter: 'Изчисти',
       clearFilter: 'Всички',
-      sumText: 'Sum' // to be translated
+      sumText: 'Sum', // to be translated
     },
     tree: {
-      emptyText: 'Няма данни'
+      emptyText: 'Няма данни',
     },
     transfer: {
       noMatch: 'Няма намерени',
@@ -98,7 +98,7 @@ export default {
       titles: ['List 1', 'List 2'], // to be translated
       filterPlaceholder: 'Enter keyword', // to be translated
       noCheckedFormat: '{total} items', // to be translated
-      hasCheckedFormat: '{checked}/{total} checked' // to be translated
-    }
-  }
-}
+      hasCheckedFormat: '{checked}/{total} checked', // to be translated
+    },
+  },
+};

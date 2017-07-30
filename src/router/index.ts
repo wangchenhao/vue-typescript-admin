@@ -1,14 +1,14 @@
-import Vue from 'vue'
-import Router, { RouteConfig } from 'vue-router'
-import main from '../views/main'
+import Vue from 'vue';
+import Router, { RouteConfig } from 'vue-router';
+import main from '../views/main';
 
-Vue.use(Router)
+Vue.use(Router);
 
 const routes: RouteConfig[] = [{
   path: '/',
   name: 'index',
-  component: main
-}]
+  component: main,
+}];
 export default new Router({
-  routes: routes
-})
+  routes: routes,
+});

@@ -2,7 +2,7 @@ export default {
   el: {
     colorpicker: {
       confirm: '확인',
-      clear: '초기화'
+      clear: '초기화',
     },
     datepicker: {
       now: '지금',
@@ -37,7 +37,7 @@ export default {
         wed: '수',
         thu: '목',
         fri: '금',
-        sat: '토'
+        sat: '토',
       },
       months: {
         jan: '1월',
@@ -51,46 +51,46 @@ export default {
         sep: '9월',
         oct: '10월',
         nov: '11월',
-        dec: '12월'
-      }
+        dec: '12월',
+      },
     },
     select: {
       loading: '불러오는 중',
       noMatch: '맞는 데이터가 없습니다',
       noData: '데이터 없음',
-      placeholder: '선택'
+      placeholder: '선택',
     },
     cascader: {
       noMatch: '맞는 데이터가 없습니다',
       loading: '불러오는 중',
-      placeholder: '선택'
+      placeholder: '선택',
     },
     pagination: {
       goto: '이동',
       pagesize: '/page',
       total: '총 {total}',
-      pageClassifier: ''
+      pageClassifier: '',
     },
     messagebox: {
       title: '메시지',
       confirm: '확인',
       cancel: '취소',
-      error: '올바르지 않은 입력'
+      error: '올바르지 않은 입력',
     },
     upload: {
       delete: '삭제',
       preview: '미리보기',
-      continue: '계속하기'
+      continue: '계속하기',
     },
     table: {
       emptyText: '데이터 없음',
       confirmFilter: '확인',
       resetFilter: '초기화',
       clearFilter: '전체',
-      sumText: '합'
+      sumText: '합',
     },
     tree: {
-      emptyText: '데이터 없음'
+      emptyText: '데이터 없음',
     },
     transfer: {
       noMatch: '맞는 데이터가 없습니다',
@@ -98,7 +98,7 @@ export default {
       titles: ['리스트 1', '리스트 2'],
       filterPlaceholder: ' 입력하세요',
       noCheckedFormat: '{total} 항목',
-      hasCheckedFormat: '{checked}/{total} 선택됨'
-    }
-  }
-}
+      hasCheckedFormat: '{checked}/{total} 선택됨',
+    },
+  },
+};

@@ -2,7 +2,7 @@ export default {
   el: {
     colorpicker: {
       confirm: 'Confirmar',
-      clear: 'Limpar'
+      clear: 'Limpar',
     },
     datepicker: {
       now: 'Agora',
@@ -37,7 +37,7 @@ export default {
         wed: 'Qua',
         thu: 'Qui',
         fri: 'Sex',
-        sat: 'Sab'
+        sat: 'Sab',
       },
       months: {
         jan: 'Jan',
@@ -51,46 +51,46 @@ export default {
         sep: 'Set',
         oct: 'Out',
         nov: 'Nov',
-        dec: 'Dez'
-      }
+        dec: 'Dez',
+      },
     },
     select: {
       loading: 'A carregar',
       noMatch: 'Sem correspondência',
       noData: 'Sem dados',
-      placeholder: 'Selecione'
+      placeholder: 'Selecione',
     },
     cascader: {
       noMatch: 'Sem correspondência',
       loading: 'A carregar',
-      placeholder: 'Selecione'
+      placeholder: 'Selecione',
     },
     pagination: {
       goto: 'Ir para',
       pagesize: '/pagina',
       total: 'Total {total}',
-      pageClassifier: ''
+      pageClassifier: '',
     },
     messagebox: {
       title: 'Mensagem',
       confirm: 'Confirmar',
       cancel: 'Cancelar',
-      error: 'Erro!'
+      error: 'Erro!',
     },
     upload: {
       delete: 'Apagar',
       preview: 'Previsualizar',
-      continue: 'Continuar'
+      continue: 'Continuar',
     },
     table: {
       emptyText: 'Sem dados',
       confirmFilter: 'Confirmar',
       resetFilter: 'Limpar',
       clearFilter: 'Todos',
-      sumText: 'Sum' // to be translated
+      sumText: 'Sum', // to be translated
     },
     tree: {
-      emptyText: 'Sem dados'
+      emptyText: 'Sem dados',
     },
     transfer: {
       noMatch: 'Sem correspondência',
@@ -98,7 +98,7 @@ export default {
       titles: ['List 1', 'List 2'], // to be translated
       filterPlaceholder: 'Enter keyword', // to be translated
       noCheckedFormat: '{total} items', // to be translated
-      hasCheckedFormat: '{checked}/{total} checked' // to be translated
-    }
-  }
-}
+      hasCheckedFormat: '{checked}/{total} checked', // to be translated
+    },
+  },
+};

@@ -1,34 +1,34 @@
-import Vue from 'vue'
-import VueI18n from 'vue-i18n'
-import _ from 'lodash'
-import Cookies from 'js-cookie'
-import eleZh from './eleLang/zh-CN'
-import eleEN from './eleLang/en'
-import zhCN from './lang/zh-CN'
-import en from './lang/en'
+import Vue from 'vue';
+import VueI18n from 'vue-i18n';
+import _ from 'lodash';
+import Cookies from 'js-cookie';
+import eleZh from './eleLang/zh-CN';
+import eleEN from './eleLang/en';
+import zhCN from './lang/zh-CN';
+import en from './lang/en';
 
-Vue.use(VueI18n)
+Vue.use(VueI18n);
 
-const locales = {}
+const locales = {};
 
 function addLang(key: string, a: object, b: object) {
   _.assignIn(locales, {
-    [key]: _.assignIn({}, a, b)
-  })
+    [key]: _.assignIn({}, a, b),
+  });
 }
 
-addLang('en', en, eleEN)
-addLang('zh-CN', zhCN, eleZh)
+addLang('en', en, eleEN);
+addLang('zh-CN', zhCN, eleZh);
 
-let browserLanguage: string = Cookies.get('lang') || window.navigator.language
+const browserLanguage: string = Cookies.get('lang') || window.navigator.language;
 
-const lang = browserLanguage in locales ? browserLanguage : 'en'
+const lang = browserLanguage in locales ? browserLanguage : 'en';
 
-console.log('系统语言:' + lang)
+console.log('系统语言:' + lang);
 
 const i18n = new VueI18n({
   locale: lang,
-  messages: locales
-})
+  messages: locales,
+});
 
-export default i18n
+export default i18n;

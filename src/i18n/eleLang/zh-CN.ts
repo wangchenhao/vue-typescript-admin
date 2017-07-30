@@ -2,7 +2,7 @@ export default {
   el: {
     colorpicker: {
       confirm: '确定',
-      clear: '清空'
+      clear: '清空',
     },
     datepicker: {
       now: '此刻',
@@ -37,7 +37,7 @@ export default {
         wed: '三',
         thu: '四',
         fri: '五',
-        sat: '六'
+        sat: '六',
       },
       months: {
         jan: '一月',
@@ -51,46 +51,46 @@ export default {
         sep: '九月',
         oct: '十月',
         nov: '十一月',
-        dec: '十二月'
-      }
+        dec: '十二月',
+      },
     },
     select: {
       loading: '加载中',
       noMatch: '无匹配数据',
       noData: '无数据',
-      placeholder: '请选择'
+      placeholder: '请选择',
     },
     cascader: {
       noMatch: '无匹配数据',
       loading: '加载中',
-      placeholder: '请选择'
+      placeholder: '请选择',
     },
     pagination: {
       goto: '前往',
       pagesize: '条/页',
       total: '共 {total} 条',
-      pageClassifier: '页'
+      pageClassifier: '页',
     },
     messagebox: {
       title: '提示',
       confirm: '确定',
       cancel: '取消',
-      error: '输入的数据不合法!'
+      error: '输入的数据不合法!',
     },
     upload: {
       delete: '删除',
       preview: '查看图片',
-      continue: '继续上传'
+      continue: '继续上传',
     },
     table: {
       emptyText: '暂无数据',
       confirmFilter: '筛选',
       resetFilter: '重置',
       clearFilter: '全部',
-      sumText: '合计'
+      sumText: '合计',
     },
     tree: {
-      emptyText: '暂无数据'
+      emptyText: '暂无数据',
     },
     transfer: {
       noMatch: '无匹配数据',
@@ -98,7 +98,7 @@ export default {
       titles: ['列表 1', '列表 2'],
       filterPlaceholder: '请输入搜索内容',
       noCheckedFormat: '共 {total} 项',
-      hasCheckedFormat: '已选 {checked}/{total} 项'
-    }
-  }
-}
+      hasCheckedFormat: '已选 {checked}/{total} 项',
+    },
+  },
+};

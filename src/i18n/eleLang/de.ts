@@ -2,7 +2,7 @@ export default {
   el: {
     colorpicker: {
       confirm: 'OK',
-      clear: 'Leeren'
+      clear: 'Leeren',
     },
     datepicker: {
       now: 'Jetzt',
@@ -39,7 +39,7 @@ export default {
         wed: 'Mi',
         thu: 'Do',
         fri: 'Fr',
-        sat: 'Sa'
+        sat: 'Sa',
       },
       months: {
         jan: 'Jan',
@@ -53,45 +53,45 @@ export default {
         sep: 'Sep',
         oct: 'Okt',
         nov: 'Nov',
-        dec: 'Dez'
-      }
+        dec: 'Dez',
+      },
     },
     select: {
       loading: 'Lädt.',
       noMatch: 'Nichts gefunden.',
       noData: 'Keine Daten',
-      placeholder: 'Daten wählen'
+      placeholder: 'Daten wählen',
     },
     cascader: {
       noMatch: 'Nichts gefunden.',
       loading: 'Lädt.',
-      placeholder: 'Daten wählen'
+      placeholder: 'Daten wählen',
     },
     pagination: {
       goto: 'Gehe zu',
       pagesize: 'pro Seite',
       total: 'Gesamt {total}',
-      pageClassifier: ''
+      pageClassifier: '',
     },
     messagebox: {
       confirm: 'OK',
       cancel: 'Abbrechen',
-      error: 'Fehler'
+      error: 'Fehler',
     },
     upload: {
       delete: 'Löschen',
       preview: 'Vorschau',
-      continue: 'Fortsetzen'
+      continue: 'Fortsetzen',
     },
     table: {
       emptyText: 'Keine Daten',
       confirmFilter: 'Anwenden',
       resetFilter: 'Zurücksetzen',
       clearFilter: 'Alles ',
-      sumText: 'Summe'
+      sumText: 'Summe',
     },
     tree: {
-      emptyText: 'Keine Einträge'
+      emptyText: 'Keine Einträge',
     },
     transfer: {
       noMatch: 'Nichts gefunden.',
@@ -99,7 +99,7 @@ export default {
       titles: ['Liste 1', 'Liste 2'],
       filterPlaceholder: 'Einträge filtern',
       noCheckedFormat: '{total} Einträge',
-      hasCheckedFormat: '{checked}/{total} ausgewählt'
-    }
-  }
-}
+      hasCheckedFormat: '{checked}/{total} ausgewählt',
+    },
+  },
+};

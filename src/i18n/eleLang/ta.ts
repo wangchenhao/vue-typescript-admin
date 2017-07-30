@@ -2,7 +2,7 @@ export default {
   el: {
     colorpicker: {
       confirm: 'உறுதி செய்',
-      clear: 'தெளிவாக்கு'
+      clear: 'தெளிவாக்கு',
     },
     datepicker: {
       now: 'தற்போது',
@@ -36,7 +36,7 @@ export default {
         wed: 'புதன்',
         thu: 'வியாழன்',
         fri: 'வெள்ளி',
-        sat: 'சனி'
+        sat: 'சனி',
       },
       months: {
         jan: 'ஜனவரி',
@@ -50,46 +50,46 @@ export default {
         sep: 'செப்டம்பர்',
         oct: 'அக்டோபர்',
         nov: 'நவம்பர்',
-        dec: 'டிசம்பர்'
-      }
+        dec: 'டிசம்பர்',
+      },
     },
     select: {
       loading: 'தயாராகிக்கொண்டிருக்கிறது',
       noMatch: 'பொருத்தமான தரவு கிடைக்கவில்லை',
       noData: 'தரவு இல்லை',
-      placeholder: 'தேர்வு செய்'
+      placeholder: 'தேர்வு செய்',
     },
     cascader: {
       noMatch: 'பொருத்தமான தரவு கிடைக்கவில்லை',
       loading: 'தயாராகிக்கொண்டிருக்கிறது',
-      placeholder: 'தேர்வு செய்'
+      placeholder: 'தேர்வு செய்',
     },
     pagination: {
       goto: 'தேவையான் பகுதிக்கு செல்',
       pagesize: '/page',
       total: 'மொத்தம் {total}',
-      pageClassifier: ''
+      pageClassifier: '',
     },
     messagebox: {
       title: 'செய்தி',
       confirm: 'உறுதி செய்',
       cancel: 'ரத்து செய்',
-      error: 'பொருத்தாமில்லாத உள்ளீடு'
+      error: 'பொருத்தாமில்லாத உள்ளீடு',
     },
     upload: {
       delete: 'நீக்கு',
       preview: 'முன்னோட்டம் பார்',
-      continue: 'தொடரு'
+      continue: 'தொடரு',
     },
     table: {
       emptyText: 'தரவு இல்லை',
       confirmFilter: 'உறுதி செய்',
       resetFilter: 'புதுமாற்றம் செய்',
       clearFilter: 'அனைத்தும்',
-      sumText: 'கூட்டு'
+      sumText: 'கூட்டு',
     },
     tree: {
-      emptyText: 'தரவு இல்லை'
+      emptyText: 'தரவு இல்லை',
     },
     transfer: {
       noMatch: 'பொருத்தமான தரவு கிடைக்கவில்லை',
@@ -97,7 +97,7 @@ export default {
       titles: ['பட்டியல் 1', 'பட்டியல் 2'],
       filterPlaceholder: 'சொல்லை உள்ளீடு செய்',
       noCheckedFormat: '{மொத்தம்} items',
-      hasCheckedFormat: '{தேர்வு செய்யப்பட்டவைகள்}/{மொத்தம்} தேர்வு செய்யப்பட்டவைகள்'
-    }
-  }
-}
+      hasCheckedFormat: '{தேர்வு செய்யப்பட்டவைகள்}/{மொத்தம்} தேர்வு செய்யப்பட்டவைகள்',
+    },
+  },
+};

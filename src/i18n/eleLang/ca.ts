@@ -2,7 +2,7 @@ export default {
   el: {
     colorpicker: {
       confirm: 'Confirmar',
-      clear: 'Netejar'
+      clear: 'Netejar',
     },
     datepicker: {
       now: 'Ara',
@@ -37,7 +37,7 @@ export default {
         wed: 'Dc',
         thu: 'Dj',
         fri: 'Dv',
-        sat: 'Ds'
+        sat: 'Ds',
       },
       months: {
         jan: 'Gen',
@@ -51,45 +51,45 @@ export default {
         sep: 'Set',
         oct: 'Oct',
         nov: 'Nov',
-        dec: 'Des'
-      }
+        dec: 'Des',
+      },
     },
     select: {
       loading: 'Carregant',
       noMatch: 'No hi ha dades que coincideixin',
       noData: 'Sense Dades',
-      placeholder: 'Seleccionar'
+      placeholder: 'Seleccionar',
     },
     cascader: {
       noMatch: 'No hi ha dades que coincideixin',
       loading: 'Carregant',
-      placeholder: 'Seleccionar'
+      placeholder: 'Seleccionar',
     },
     pagination: {
       goto: 'Anar a',
       pagesize: '/pagina',
       total: 'Total {total}',
-      pageClassifier: ''
+      pageClassifier: '',
     },
     messagebox: {
       confirm: 'Acceptar',
       cancel: 'Cancel·lar',
-      error: 'Entrada invàlida'
+      error: 'Entrada invàlida',
     },
     upload: {
       delete: 'Eliminar',
       preview: 'Vista Prèvia',
-      continue: 'Continuar'
+      continue: 'Continuar',
     },
     table: {
       emptyText: 'Sense Dades',
       confirmFilter: 'Confirmar',
       resetFilter: 'Netejar',
       clearFilter: 'Tot',
-      sumText: 'Tot'
+      sumText: 'Tot',
     },
     tree: {
-      emptyText: 'Sense Dades'
+      emptyText: 'Sense Dades',
     },
     transfer: {
       noMatch: 'No hi ha dades que coincideixin',
@@ -97,7 +97,7 @@ export default {
       titles: ['Llista 1', 'Llista 2'],
       filterPlaceholder: 'Introdueix la paraula clau',
       noCheckedFormat: '{total} ítems',
-      hasCheckedFormat: '{checked}/{total} seleccionats'
-    }
-  }
-}
+      hasCheckedFormat: '{checked}/{total} seleccionats',
+    },
+  },
+};

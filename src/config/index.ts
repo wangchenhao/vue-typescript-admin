@@ -1,5 +1,5 @@
 export default {
   Component: {
-    prefix: 'v'
-  }
-}
+    prefix: 'v',
+  },
+};

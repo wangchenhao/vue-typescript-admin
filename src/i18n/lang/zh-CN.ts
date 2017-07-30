@@ -31,6 +31,6 @@ export default {
   setNickname: '账号昵称',
   personalWebsite: '个人网站',
   profile: '个人简介',
-  saveSeting: '保存设置'
-}
+  saveSeting: '保存设置',
+};
 

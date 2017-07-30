@@ -2,7 +2,7 @@ export default {
   el: {
     colorpicker: {
       confirm: 'OK',
-      clear: 'Vymazat'
+      clear: 'Vymazat',
     },
     datepicker: {
       now: 'Teď',
@@ -39,7 +39,7 @@ export default {
         wed: 'St',
         thu: 'Čt',
         fri: 'Pá',
-        sat: 'So'
+        sat: 'So',
       },
       months: {
         jan: 'Led',
@@ -53,46 +53,46 @@ export default {
         sep: 'Zář',
         oct: 'Říj',
         nov: 'Lis',
-        dec: 'Pro'
-      }
+        dec: 'Pro',
+      },
     },
     select: {
       loading: 'Načítání',
       noMatch: 'Žádná shoda',
       noData: 'Žádná data',
-      placeholder: 'Vybrat'
+      placeholder: 'Vybrat',
     },
     cascader: {
       noMatch: 'Žádná shoda',
       loading: 'Načítání',
-      placeholder: 'Vybrat'
+      placeholder: 'Vybrat',
     },
     pagination: {
       goto: 'Jít na',
       pagesize: 'na stranu',
       total: 'Vše {total}',
-      pageClassifier: ''
+      pageClassifier: '',
     },
     messagebox: {
       title: 'Zpráva',
       confirm: 'OK',
       cancel: 'Zrušit',
-      error: 'Neplatný vstup'
+      error: 'Neplatný vstup',
     },
     upload: {
       delete: 'Vymazat',
       preview: 'Náhled',
-      continue: 'Pokračovat'
+      continue: 'Pokračovat',
     },
     table: {
       emptyText: 'Žádná data',
       confirmFilter: 'Potvrdit',
       resetFilter: 'Resetovat',
       clearFilter: 'Vše',
-      sumText: 'Sum' // to be translated
+      sumText: 'Sum', // to be translated
     },
     tree: {
-      emptyText: 'Žádná data'
+      emptyText: 'Žádná data',
     },
     transfer: {
       noMatch: 'Žádná shoda',
@@ -100,7 +100,7 @@ export default {
       titles: ['List 1', 'List 2'], // to be translated
       filterPlaceholder: 'Enter keyword', // to be translated
       noCheckedFormat: '{total} items', // to be translated
-      hasCheckedFormat: '{checked}/{total} checked' // to be translated
-    }
-  }
-}
+      hasCheckedFormat: '{checked}/{total} checked', // to be translated
+    },
+  },
+};

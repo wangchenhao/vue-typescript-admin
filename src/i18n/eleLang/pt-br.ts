@@ -2,7 +2,7 @@ export default {
   el: {
     colorpicker: {
       confirm: 'Confirmar',
-      clear: 'Limpar'
+      clear: 'Limpar',
     },
     datepicker: {
       now: 'Agora',
@@ -37,7 +37,7 @@ export default {
         wed: 'Qua',
         thu: 'Qui',
         fri: 'Sex',
-        sat: 'Sab'
+        sat: 'Sab',
       },
       months: {
         jan: 'Jan',
@@ -51,46 +51,46 @@ export default {
         sep: 'Set',
         oct: 'Out',
         nov: 'Nov',
-        dec: 'Dez'
-      }
+        dec: 'Dez',
+      },
     },
     select: {
       loading: 'Carregando',
       noMatch: 'Sem resultados',
       noData: 'Sem dados',
-      placeholder: 'Selecione'
+      placeholder: 'Selecione',
     },
     cascader: {
       noMatch: 'Sem resultados',
       loading: 'Carregando',
-      placeholder: 'Selecione'
+      placeholder: 'Selecione',
     },
     pagination: {
       goto: 'Ir para',
       pagesize: '/página',
       total: 'Total {total}',
-      pageClassifier: ''
+      pageClassifier: '',
     },
     messagebox: {
       title: 'Mensagem',
       confirm: 'Confirmar',
       cancel: 'Cancelar',
-      error: 'Erro!'
+      error: 'Erro!',
     },
     upload: {
       delete: 'Apagar',
       preview: 'Pré-visualizar',
-      continue: 'Continuar'
+      continue: 'Continuar',
     },
     table: {
       emptyText: 'Sem dados',
       confirmFilter: 'Confirmar',
       resetFilter: 'Limpar',
       clearFilter: 'Todos',
-      sumText: 'Total'
+      sumText: 'Total',
     },
     tree: {
-      emptyText: 'Sem dados'
+      emptyText: 'Sem dados',
     },
     transfer: {
       noMatch: 'Sem resultados',
@@ -98,7 +98,7 @@ export default {
       titles: ['Lista 1', 'Lista 2'],
       filterPlaceholder: 'Digite uma palavra-chave',
       noCheckedFormat: '{total} itens',
-      hasCheckedFormat: '{checked}/{total} selecionados'
-    }
-  }
-}
+      hasCheckedFormat: '{checked}/{total} selecionados',
+    },
+  },
+};

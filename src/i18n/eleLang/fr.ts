@@ -2,7 +2,7 @@ export default {
   el: {
     colorpicker: {
       confirm: 'OK',
-      clear: 'Effacer'
+      clear: 'Effacer',
     },
     datepicker: {
       now: 'Maintenant',
@@ -37,7 +37,7 @@ export default {
         wed: 'Mer',
         thu: 'Jeu',
         fri: 'Ven',
-        sat: 'Sam'
+        sat: 'Sam',
       },
       months: {
         jan: 'Jan',
@@ -51,45 +51,45 @@ export default {
         sep: 'Sep',
         oct: 'Oct',
         nov: 'Nov',
-        dec: 'Déc'
-      }
+        dec: 'Déc',
+      },
     },
     select: {
       loading: 'Chargement',
       noMatch: 'Aucune correspondance',
       noData: 'Aucune donnée',
-      placeholder: 'Choisir'
+      placeholder: 'Choisir',
     },
     cascader: {
       noMatch: 'Aucune correspondance',
       loading: 'Chargement',
-      placeholder: 'Choisir'
+      placeholder: 'Choisir',
     },
     pagination: {
       goto: 'Aller à',
       pagesize: '/page',
       total: 'Total {total}',
-      pageClassifier: ''
+      pageClassifier: '',
     },
     messagebox: {
       confirm: 'Confirmer',
       cancel: 'Annuler',
-      error: 'Erreur'
+      error: 'Erreur',
     },
     upload: {
       delete: 'Supprimer',
       preview: 'Aperçu',
-      continue: 'Continuer'
+      continue: 'Continuer',
     },
     table: {
       emptyText: 'Aucune donnée',
       confirmFilter: 'Confirmer',
       resetFilter: 'Réinitialiser',
       clearFilter: 'Tous',
-      sumText: 'Sum' // to be translated
+      sumText: 'Sum', // to be translated
     },
     tree: {
-      emptyText: 'Aucune donnée'
+      emptyText: 'Aucune donnée',
     },
     transfer: {
       noMatch: 'Aucune correspondance',
@@ -97,7 +97,7 @@ export default {
       titles: ['List 1', 'List 2'], // to be translated
       filterPlaceholder: 'Enter keyword', // to be translated
       noCheckedFormat: '{total} items', // to be translated
-      hasCheckedFormat: '{checked}/{total} checked' // to be translated
-    }
-  }
-}
+      hasCheckedFormat: '{checked}/{total} checked', // to be translated
+    },
+  },
+};

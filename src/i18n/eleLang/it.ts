@@ -2,7 +2,7 @@ export default {
   el: {
     colorpicker: {
       confirm: 'OK',
-      clear: 'Pulisci'
+      clear: 'Pulisci',
     },
     datepicker: {
       now: 'Ora',
@@ -37,7 +37,7 @@ export default {
         wed: 'Mer',
         thu: 'Gio',
         fri: 'Ven',
-        sat: 'Sab'
+        sat: 'Sab',
       },
       months: {
         jan: 'Gen',
@@ -51,45 +51,45 @@ export default {
         sep: 'Set',
         oct: 'Ott',
         nov: 'Nov',
-        dec: 'Dic'
-      }
+        dec: 'Dic',
+      },
     },
     select: {
       loading: 'Caricamento',
       noMatch: 'Nessuna corrispondenza',
       noData: 'Nessun dato',
-      placeholder: 'Seleziona'
+      placeholder: 'Seleziona',
     },
     cascader: {
       noMatch: 'Nessuna corrispondenza',
       loading: 'Caricamento',
-      placeholder: 'Seleziona'
+      placeholder: 'Seleziona',
     },
     pagination: {
       goto: 'Vai a',
       pagesize: '/page',
       total: 'Totale {total}',
-      pageClassifier: ''
+      pageClassifier: '',
     },
     messagebox: {
       confirm: 'OK',
       cancel: 'Cancella',
-      error: 'Input non valido'
+      error: 'Input non valido',
     },
     upload: {
       delete: 'Cancella',
       preview: 'Anteprima',
-      continue: 'Continua'
+      continue: 'Continua',
     },
     table: {
       emptyText: 'Nessun dato',
       confirmFilter: 'Conferma',
       resetFilter: 'Reset',
       clearFilter: 'Tutti',
-      sumText: 'Sum' // to be translated
+      sumText: 'Sum', // to be translated
     },
     tree: {
-      emptyText: 'Nessun dato'
+      emptyText: 'Nessun dato',
     },
     transfer: {
       noMatch: 'Nessuna corrispondenza',
@@ -97,7 +97,7 @@ export default {
       titles: ['List 1', 'List 2'], // to be translated
       filterPlaceholder: 'Enter keyword', // to be translated
       noCheckedFormat: '{total} items', // to be translated
-      hasCheckedFormat: '{checked}/{total} checked' // to be translated
-    }
-  }
-}
+      hasCheckedFormat: '{checked}/{total} checked', // to be translated
+    },
+  },
+};

@@ -2,7 +2,7 @@ export default {
   el: {
     colorpicker: {
       confirm: 'OK',
-      clear: 'Ryd'
+      clear: 'Ryd',
     },
     datepicker: {
       now: 'Nu',
@@ -37,7 +37,7 @@ export default {
         wed: 'Ons',
         thu: 'Tor',
         fri: 'Fre',
-        sat: 'Lør'
+        sat: 'Lør',
       },
       months: {
         jan: 'Jan',
@@ -51,45 +51,45 @@ export default {
         sep: 'Sep',
         oct: 'Okt',
         nov: 'Nov',
-        dec: 'Dec'
-      }
+        dec: 'Dec',
+      },
     },
     select: {
       loading: 'Henter',
       noMatch: 'Ingen matchende data',
       noData: 'Ingen data',
-      placeholder: 'Vælg'
+      placeholder: 'Vælg',
     },
     cascader: {
       noMatch: 'Ingen matchende data',
       loading: 'Henter',
-      placeholder: 'Vælg'
+      placeholder: 'Vælg',
     },
     pagination: {
       goto: 'Gå til',
       pagesize: '/side',
       total: 'Total {total}',
-      pageClassifier: ''
+      pageClassifier: '',
     },
     messagebox: {
       confirm: 'OK',
       cancel: 'Annuller',
-      error: 'Ugyldig input'
+      error: 'Ugyldig input',
     },
     upload: {
       delete: 'Slet',
       preview: 'Forhåndsvisning',
-      continue: 'Fortsæt'
+      continue: 'Fortsæt',
     },
     table: {
       emptyText: 'Ingen data',
       confirmFilter: 'Bekræft',
       resetFilter: 'Nulstil',
       clearFilter: 'Alle',
-      sumText: 'Sum' // to be translated
+      sumText: 'Sum', // to be translated
     },
     tree: {
-      emptyText: 'Ingen data'
+      emptyText: 'Ingen data',
     },
     transfer: {
       noMatch: 'Ingen matchende data',
@@ -97,7 +97,7 @@ export default {
       titles: ['List 1', 'List 2'], // to be translated
       filterPlaceholder: 'Enter keyword', // to be translated
       noCheckedFormat: '{total} items', // to be translated
-      hasCheckedFormat: '{checked}/{total} checked' // to be translated
-    }
-  }
-}
+      hasCheckedFormat: '{checked}/{total} checked', // to be translated
+    },
+  },
+};

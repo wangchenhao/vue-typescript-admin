@@ -2,7 +2,7 @@ export default {
   el: {
     colorpicker: {
       confirm: 'OK',
-      clear: 'Zmazať'
+      clear: 'Zmazať',
     },
     datepicker: {
       now: 'Teraz',
@@ -39,7 +39,7 @@ export default {
         wed: 'St',
         thu: 'Št',
         fri: 'Pi',
-        sat: 'So'
+        sat: 'So',
       },
       months: {
         jan: 'Jan',
@@ -53,46 +53,46 @@ export default {
         sep: 'Sep',
         oct: 'Okt',
         nov: 'Nov',
-        dec: 'Dec'
-      }
+        dec: 'Dec',
+      },
     },
     select: {
       loading: 'Načítavanie',
       noMatch: 'Žiadna zhoda',
       noData: 'Žiadne dáta',
-      placeholder: 'Vybrať'
+      placeholder: 'Vybrať',
     },
     cascader: {
       noMatch: 'Žiadna zhoda',
       loading: 'Načítavanie',
-      placeholder: 'Vybrať'
+      placeholder: 'Vybrať',
     },
     pagination: {
       goto: 'Choď na',
       pagesize: 'na stranu',
       total: 'Všetko {total}',
-      pageClassifier: ''
+      pageClassifier: '',
     },
     messagebox: {
       title: 'Správa',
       confirm: 'OK',
       cancel: 'Zrušiť',
-      error: 'Neplatný vstup'
+      error: 'Neplatný vstup',
     },
     upload: {
       delete: 'Vymazať',
       preview: 'Prehliadať',
-      continue: 'Pokračovať'
+      continue: 'Pokračovať',
     },
     table: {
       emptyText: 'Žiadne dáta',
       confirmFilter: 'Potvrdiť',
       resetFilter: 'Zresetovať',
       clearFilter: 'Všetko',
-      sumText: 'Spolu'
+      sumText: 'Spolu',
     },
     tree: {
-      emptyText: 'Žiadne dáta'
+      emptyText: 'Žiadne dáta',
     },
     transfer: {
       noMatch: 'Žiadna zhoda',
@@ -100,7 +100,7 @@ export default {
       titles: ['Zoznam 1', 'Zoznam 2'],
       filterPlaceholder: 'Filtrovať podľa',
       noCheckedFormat: '{total} položiek',
-      hasCheckedFormat: '{checked}/{total} označených'
-    }
-  }
-}
+      hasCheckedFormat: '{checked}/{total} označených',
+    },
+  },
+};

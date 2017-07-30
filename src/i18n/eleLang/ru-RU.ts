@@ -2,7 +2,7 @@ export default {
   el: {
     colorpicker: {
       confirm: 'OK',
-      clear: 'Очистить'
+      clear: 'Очистить',
     },
     datepicker: {
       now: 'Сейчас',
@@ -37,7 +37,7 @@ export default {
         wed: 'Ср',
         thu: 'Чт',
         fri: 'Пт',
-        sat: 'Сб'
+        sat: 'Сб',
       },
       months: {
         jan: 'Янв',
@@ -51,46 +51,46 @@ export default {
         sep: 'Сен',
         oct: 'Окт',
         nov: 'Ноя',
-        dec: 'Дек'
-      }
+        dec: 'Дек',
+      },
     },
     select: {
       loading: 'Загрузка',
       noMatch: 'Совпадений не найдено',
       noData: 'Нет данных',
-      placeholder: 'Выбрать'
+      placeholder: 'Выбрать',
     },
     cascader: {
       noMatch: 'Совпадений не найдено',
       loading: 'Загрузка',
-      placeholder: 'Выбрать'
+      placeholder: 'Выбрать',
     },
     pagination: {
       goto: 'Перейти',
       pagesize: 'на странице',
       total: 'Всего {total}',
-      pageClassifier: ''
+      pageClassifier: '',
     },
     messagebox: {
       title: 'Сообщение',
       confirm: 'OK',
       cancel: 'Отмена',
-      error: 'Недопустимый ввод данных'
+      error: 'Недопустимый ввод данных',
     },
     upload: {
       delete: 'Удалить',
       preview: 'Превью',
-      continue: 'Продолжить'
+      continue: 'Продолжить',
     },
     table: {
       emptyText: 'Нет данных',
       confirmFilter: 'Подтвердить',
       resetFilter: 'Сбросить',
       clearFilter: 'Все',
-      sumText: 'Sum' // to be translated
+      sumText: 'Sum', // to be translated
     },
     tree: {
-      emptyText: 'Нет данных'
+      emptyText: 'Нет данных',
     },
     transfer: {
       noMatch: 'Совпадений не найдено',
@@ -98,7 +98,7 @@ export default {
       titles: ['List 1', 'List 2'], // to be translated
       filterPlaceholder: 'Enter keyword', // to be translated
       noCheckedFormat: '{total} items', // to be translated
-      hasCheckedFormat: '{checked}/{total} checked' // to be translated
-    }
-  }
-}
+      hasCheckedFormat: '{checked}/{total} checked', // to be translated
+    },
+  },
+};

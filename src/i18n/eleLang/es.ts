@@ -2,7 +2,7 @@ export default {
   el: {
     colorpicker: {
       confirm: 'Confirmar',
-      clear: 'Limpiar'
+      clear: 'Limpiar',
     },
     datepicker: {
       now: 'Ahora',
@@ -37,7 +37,7 @@ export default {
         wed: 'Mié',
         thu: 'Jue',
         fri: 'Vie',
-        sat: 'Sáb'
+        sat: 'Sáb',
       },
       months: {
         jan: 'Ene',
@@ -51,45 +51,45 @@ export default {
         sep: 'Sep',
         oct: 'Oct',
         nov: 'Nov',
-        dec: 'Dic'
-      }
+        dec: 'Dic',
+      },
     },
     select: {
       loading: 'Cargando',
       noMatch: 'No hay datos que coincidan',
       noData: 'Sin datos',
-      placeholder: 'Seleccionar'
+      placeholder: 'Seleccionar',
     },
     cascader: {
       noMatch: 'No hay datos que coincidan',
       loading: 'Cargando',
-      placeholder: 'Seleccionar'
+      placeholder: 'Seleccionar',
     },
     pagination: {
       goto: 'Ir a',
       pagesize: '/pagina',
       total: 'Total {total}',
-      pageClassifier: ''
+      pageClassifier: '',
     },
     messagebox: {
       confirm: 'Aceptar',
       cancel: 'Cancelar',
-      error: 'Entrada inválida'
+      error: 'Entrada inválida',
     },
     upload: {
       delete: 'Eliminar',
       preview: 'Vista Previa',
-      continue: 'Continuar'
+      continue: 'Continuar',
     },
     table: {
       emptyText: 'Sin Datos',
       confirmFilter: 'Confirmar',
       resetFilter: 'Limpiar',
       clearFilter: 'Todo',
-      sumText: 'Sum' // to be translated
+      sumText: 'Sum', // to be translated
     },
     tree: {
-      emptyText: 'Sin Datos'
+      emptyText: 'Sin Datos',
     },
     transfer: {
       noMatch: 'No hay datos que coincidan',
@@ -97,7 +97,7 @@ export default {
       titles: ['List 1', 'List 2'], // to be translated
       filterPlaceholder: 'Enter keyword', // to be translated
       noCheckedFormat: '{total} items', // to be translated
-      hasCheckedFormat: '{checked}/{total} checked' // to be translated
-    }
-  }
-}
+      hasCheckedFormat: '{checked}/{total} checked', // to be translated
+    },
+  },
+};

@@ -31,6 +31,6 @@ export default {
   setUsername: 'Set Username',
   setNickname: 'Set Nickname',
   personalWebsite: 'Personal Website',
-  saveSeting: 'Save Seting'
-}
+  saveSeting: 'Save Seting',
+};
 

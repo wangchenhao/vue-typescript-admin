@@ -11,6 +11,61 @@
         "return-undefined": false,
         "no-floating-promises": false,
         "no-unnecessary-qualifier": false,
-        "strict-type-predicates": false
+        "strict-type-predicates": false,
+        "semicolon": [
+            true,
+            "always"
+        ],
+        "quotemark": [
+            true,
+            "single"
+        ],
+        "trailing-comma": [
+            true,
+            {
+                "multiline": "always",
+                "singleline": "never"
+            }
+        ],
+        "forin": true,
+        "import-blacklist": [
+            true
+        ],
+        "import-spacing": true,
+        "indent": [
+            true,
+            "spaces"
+        ],
+        "interface-over-type-literal": true,
+        "max-line-length": [
+            true,
+            140
+        ],
+        "no-bitwise": true,
+        "no-console": [
+            true,
+            "debug",
+            "info",
+            "time",
+            "timeEnd",
+            "trace"
+        ],
+        "no-construct": true,
+        "no-debugger": true,
+        "no-duplicate-super": true,
+        "no-empty": false,
+        "no-empty-interface": true,
+        "no-eval": true,
+        "no-inferrable-types": [
+            true,
+            "ignore-params"
+        ],
+        "no-non-null-assertion": true,
+        "no-shadowed-variable": true,
+        "no-string-literal": false,
+        "no-unnecessary-initializer": true,
+        "object-literal-sort-keys": false,
+        "prefer-const": true,
+        "typeof-compare": true
     }
 }

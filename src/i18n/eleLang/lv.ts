@@ -2,7 +2,7 @@ export default {
   el: {
     colorpicker: {
       confirm: 'Labi',
-      clear: 'Notīrīt'
+      clear: 'Notīrīt',
     },
     datepicker: {
       now: 'Tagad',
@@ -37,7 +37,7 @@ export default {
         wed: 'Tr',
         thu: 'Ce',
         fri: 'Pk',
-        sat: 'Se'
+        sat: 'Se',
       },
       months: {
         jan: 'Jan',
@@ -51,46 +51,46 @@ export default {
         sep: 'Sep',
         oct: 'Okt',
         nov: 'Nov',
-        dec: 'Dec'
-      }
+        dec: 'Dec',
+      },
     },
     select: {
       loading: 'Ielādē',
       noMatch: 'Nav atbilstošu datu',
       noData: 'Nav datu',
-      placeholder: 'Izvēlēties'
+      placeholder: 'Izvēlēties',
     },
     cascader: {
       noMatch: 'Nav atbilstošu datu',
       loading: 'Ielādē',
-      placeholder: 'Izvēlēties'
+      placeholder: 'Izvēlēties',
     },
     pagination: {
       goto: 'Iet uz',
       pagesize: '/page',
       total: 'Kopā {total}',
-      pageClassifier: ''
+      pageClassifier: '',
     },
     messagebox: {
       title: 'Paziņojums',
       confirm: 'Labi',
       cancel: 'Atcelt',
-      error: 'Nederīga ievade'
+      error: 'Nederīga ievade',
     },
     upload: {
       delete: 'Dzēst',
       preview: 'Priekšskatīt',
-      continue: 'Turpināt'
+      continue: 'Turpināt',
     },
     table: {
       emptyText: 'Nav datu',
       confirmFilter: 'Apstiprināt',
       resetFilter: 'Reset',
       clearFilter: 'Visi',
-      sumText: 'Summa'
+      sumText: 'Summa',
     },
     tree: {
-      emptyText: 'Nav datu'
+      emptyText: 'Nav datu',
     },
     transfer: {
       noMatch: 'Nav atbilstošu datu',
@@ -98,7 +98,7 @@ export default {
       titles: ['Saraksts 1', 'Saraksts 2'],
       filterPlaceholder: 'Ievadīt atslēgvārdu',
       noCheckedFormat: '{total} vienības',
-      hasCheckedFormat: '{checked}/{total} atzīmēti'
-    }
-  }
-}
+      hasCheckedFormat: '{checked}/{total} atzīmēti',
+    },
+  },
+};

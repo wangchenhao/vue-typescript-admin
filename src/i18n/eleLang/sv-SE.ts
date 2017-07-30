@@ -2,7 +2,7 @@ export default {
   el: {
     colorpicker: {
       confirm: 'OK',
-      clear: 'Töm'
+      clear: 'Töm',
     },
     datepicker: {
       now: 'Nu',
@@ -37,7 +37,7 @@ export default {
         wed: 'Ons',
         thu: 'Tor',
         fri: 'Fre',
-        sat: 'Lör'
+        sat: 'Lör',
       },
       months: {
         jan: 'Jan',
@@ -51,46 +51,46 @@ export default {
         sep: 'Sep',
         oct: 'Okt',
         nov: 'Nov',
-        dec: 'Dec'
-      }
+        dec: 'Dec',
+      },
     },
     select: {
       loading: 'Laddar',
       noMatch: 'Hittade inget',
       noData: 'Ingen data',
-      placeholder: 'Välj'
+      placeholder: 'Välj',
     },
     cascader: {
       noMatch: 'Hittade inget',
       loading: 'Laddar',
-      placeholder: 'Välj'
+      placeholder: 'Välj',
     },
     pagination: {
       goto: 'Gå till',
       pagesize: '/sida',
       total: 'Total {total}',
-      pageClassifier: ''
+      pageClassifier: '',
     },
     messagebox: {
       title: 'Meddelande',
       confirm: 'OK',
       cancel: 'Avbryt',
-      error: 'Felaktig inmatning'
+      error: 'Felaktig inmatning',
     },
     upload: {
       delete: 'Radera',
       preview: 'Förhandsvisa',
-      continue: 'Fortsätt'
+      continue: 'Fortsätt',
     },
     table: {
       emptyText: 'Inga Data',
       confirmFilter: 'Bekräfta',
       resetFilter: 'Återställ',
       clearFilter: 'Alla',
-      sumText: 'Sum' // to be translated
+      sumText: 'Sum', // to be translated
     },
     tree: {
-      emptyText: 'Inga Data'
+      emptyText: 'Inga Data',
     },
     transfer: {
       noMatch: 'Hittade inget',
@@ -98,7 +98,7 @@ export default {
       titles: ['List 1', 'List 2'], // to be translated
       filterPlaceholder: 'Enter keyword', // to be translated
       noCheckedFormat: '{total} items', // to be translated
-      hasCheckedFormat: '{checked}/{total} checked' // to be translated
-    }
-  }
-}
+      hasCheckedFormat: '{checked}/{total} checked', // to be translated
+    },
+  },
+};

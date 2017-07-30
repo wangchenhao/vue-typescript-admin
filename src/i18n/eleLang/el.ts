@@ -2,7 +2,7 @@ export default {
   el: {
     colorpicker: {
       confirm: 'OK',
-      clear: 'Καθαρισμός'
+      clear: 'Καθαρισμός',
     },
     datepicker: {
       now: 'Τώρα',
@@ -37,7 +37,7 @@ export default {
         wed: 'Τετ',
         thu: 'Πεμ',
         fri: 'Παρ',
-        sat: 'Σαβ'
+        sat: 'Σαβ',
       },
       months: {
         jan: 'Ιαν',
@@ -51,46 +51,46 @@ export default {
         sep: 'Σεπ',
         oct: 'Οκτ',
         nov: 'Νοε',
-        dec: 'Δεκ'
-      }
+        dec: 'Δεκ',
+      },
     },
     select: {
       loading: 'Φόρτωση',
       noMatch: 'Δεν βρέθηκαν αποτελέσματα',
       noData: 'Χωρίς δεδομένα',
-      placeholder: 'Επιλογή'
+      placeholder: 'Επιλογή',
     },
     cascader: {
       noMatch: 'Δεν βρέθηκαν αποτελέσματα',
       loading: 'Φόρτωση',
-      placeholder: 'Επιλογή'
+      placeholder: 'Επιλογή',
     },
     pagination: {
       goto: 'Μετάβαση σε',
       pagesize: '/σελίδα',
       total: 'Σύνολο {total}',
-      pageClassifier: ''
+      pageClassifier: '',
     },
     messagebox: {
       title: 'Μήνυμα',
       confirm: 'OK',
       cancel: 'Ακύρωση',
-      error: 'Άκυρη εισαγωγή'
+      error: 'Άκυρη εισαγωγή',
     },
     upload: {
       delete: 'Διαγραφή',
       preview: 'Προεπισκόπηση',
-      continue: 'Συνέχεια'
+      continue: 'Συνέχεια',
     },
     table: {
       emptyText: 'Χωρίς Δεδομένα',
       confirmFilter: 'Επιβεβαίωση',
       resetFilter: 'Επαναφορά',
       clearFilter: 'Όλα',
-      sumText: 'Sum' // to be translated
+      sumText: 'Sum', // to be translated
     },
     tree: {
-      emptyText: 'Χωρίς Δεδομένα'
+      emptyText: 'Χωρίς Δεδομένα',
     },
     transfer: {
       noMatch: 'Δεν βρέθηκαν αποτελέσματα',
@@ -98,7 +98,7 @@ export default {
       titles: ['List 1', 'List 2'], // to be translated
       filterPlaceholder: 'Enter keyword', // to be translated
       noCheckedFormat: '{total} items', // to be translated
-      hasCheckedFormat: '{checked}/{total} checked' // to be translated
-    }
-  }
-}
+      hasCheckedFormat: '{checked}/{total} checked', // to be translated
+    },
+  },
+};

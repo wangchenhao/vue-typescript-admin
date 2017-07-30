@@ -2,7 +2,7 @@ export default {
   el: {
     colorpicker: {
       confirm: 'OK',
-      clear: 'クリア'
+      clear: 'クリア',
     },
     datepicker: {
       now: '現在',
@@ -37,7 +37,7 @@ export default {
         wed: '水',
         thu: '木',
         fri: '金',
-        sat: '土'
+        sat: '土',
       },
       months: {
         jan: '1月',
@@ -51,46 +51,46 @@ export default {
         sep: '9月',
         oct: '10月',
         nov: '11月',
-        dec: '12月'
-      }
+        dec: '12月',
+      },
     },
     select: {
       loading: 'ロード中',
       noMatch: 'データなし',
       noData: 'データなし',
-      placeholder: '選択してください'
+      placeholder: '選択してください',
     },
     cascader: {
       noMatch: 'データなし',
       loading: 'ロード中',
-      placeholder: '選択してください'
+      placeholder: '選択してください',
     },
     pagination: {
       goto: '',
       pagesize: '件/ページ',
       total: '総計 {total} 件',
-      pageClassifier: 'ページ目へ'
+      pageClassifier: 'ページ目へ',
     },
     messagebox: {
       title: 'メッセージ',
       confirm: 'はい',
       cancel: 'キャンセル',
-      error: '正しくない入力'
+      error: '正しくない入力',
     },
     upload: {
       delete: '削除する',
       preview: 'プレビュー',
-      continue: '続行する'
+      continue: '続行する',
     },
     table: {
       emptyText: 'データなし',
       confirmFilter: '確認',
       resetFilter: '初期化',
       clearFilter: 'すべて',
-      sumText: 'Sum' // to be translated
+      sumText: 'Sum', // to be translated
     },
     tree: {
-      emptyText: 'データなし'
+      emptyText: 'データなし',
     },
     transfer: {
       noMatch: 'データなし',
@@ -98,7 +98,7 @@ export default {
       titles: ['List 1', 'List 2'], // to be translated
       filterPlaceholder: 'Enter keyword', // to be translated
       noCheckedFormat: '{total} items', // to be translated
-      hasCheckedFormat: '{checked}/{total} checked' // to be translated
-    }
-  }
-}
+      hasCheckedFormat: '{checked}/{total} checked', // to be translated
+    },
+  },
+};

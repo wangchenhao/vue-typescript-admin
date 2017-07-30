@@ -2,7 +2,7 @@ export default {
   el: {
     colorpicker: {
       confirm: 'OK',
-      clear: 'Arassala'
+      clear: 'Arassala',
     },
     datepicker: {
       now: 'Ýaňy',
@@ -37,7 +37,7 @@ export default {
         wed: 'Çar',
         thu: 'Pen',
         fri: 'Ann',
-        sat: 'Şen'
+        sat: 'Şen',
       },
       months: {
         jan: 'Ýan',
@@ -51,46 +51,46 @@ export default {
         sep: 'Sep',
         oct: 'Okt',
         nov: 'Noý',
-        dec: 'Dek'
-      }
+        dec: 'Dek',
+      },
     },
     select: {
       loading: 'Indirilýär',
       noMatch: 'Hiçzat tapylmady',
       noData: 'Hiçzat ýok',
-      placeholder: 'Saýla'
+      placeholder: 'Saýla',
     },
     cascader: {
       noMatch: 'Hiçzat tapylmady',
       loading: 'Indirilýär',
-      placeholder: 'saýlaň'
+      placeholder: 'saýlaň',
     },
     pagination: {
       goto: 'Git',
       pagesize: '/sahypa',
       total: 'Umumy {total}',
-      pageClassifier: ''
+      pageClassifier: '',
     },
     messagebox: {
       title: 'Hat',
       confirm: 'OK',
       cancel: 'Bes et',
-      error: 'Ýalňyş girizme'
+      error: 'Ýalňyş girizme',
     },
     upload: {
       delete: 'Poz',
       preview: 'Gör',
-      continue: 'Dowam et'
+      continue: 'Dowam et',
     },
     table: {
       emptyText: 'Maglumat ýok',
       confirmFilter: 'Tassykla',
       resetFilter: 'Arassala',
       clearFilter: 'Hemmesi',
-      sumText: 'Jemi'
+      sumText: 'Jemi',
     },
     tree: {
-      emptyText: 'Maglumat ýok'
+      emptyText: 'Maglumat ýok',
     },
     transfer: {
       noMatch: 'Hiçzat tapylmady',
@@ -98,7 +98,7 @@ export default {
       titles: ['Sanaw 1', 'Sanaw 2'],
       filterPlaceholder: 'Gözleg sözlerini giriziň',
       noCheckedFormat: '{total} element',
-      hasCheckedFormat: '{checked}/{total} saýlanan'
-    }
-  }
-}
+      hasCheckedFormat: '{checked}/{total} saýlanan',
+    },
+  },
+};

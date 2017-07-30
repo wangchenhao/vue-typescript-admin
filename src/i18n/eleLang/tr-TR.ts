@@ -2,7 +2,7 @@ export default {
   el: {
     colorpicker: {
       confirm: 'Onayla',
-      clear: 'Temizle'
+      clear: 'Temizle',
     },
     datepicker: {
       now: 'Şimdi',
@@ -37,7 +37,7 @@ export default {
         wed: 'Çar',
         thu: 'Per',
         fri: 'Cum',
-        sat: 'Cmt'
+        sat: 'Cmt',
       },
       months: {
         jan: 'Oca',
@@ -51,46 +51,46 @@ export default {
         sep: 'Eyl',
         oct: 'Eki',
         nov: 'Kas',
-        dec: 'Ara'
-      }
+        dec: 'Ara',
+      },
     },
     select: {
       loading: 'Yükleniyor',
       noMatch: 'Eşleşen veri bulunamadı',
       noData: 'Veri yok',
-      placeholder: 'Seç'
+      placeholder: 'Seç',
     },
     cascader: {
       noMatch: 'Eşleşen veri bulunamadı',
       loading: 'Yükleniyor',
-      placeholder: 'Seç'
+      placeholder: 'Seç',
     },
     pagination: {
       goto: 'Git',
       pagesize: '/page',
       total: 'Toplam {total}',
-      pageClassifier: ''
+      pageClassifier: '',
     },
     messagebox: {
       title: 'Mesaj',
       confirm: 'Onayla',
       cancel: 'İptal',
-      error: 'İllegal giriş'
+      error: 'İllegal giriş',
     },
     upload: {
       delete: 'Sil',
       preview: 'Görüntüle',
-      continue: 'Devam'
+      continue: 'Devam',
     },
     table: {
       emptyText: 'Veri yok',
       confirmFilter: 'Onayla',
       resetFilter: 'Sıfırla',
       clearFilter: 'Hepsi',
-      sumText: 'Sum'
+      sumText: 'Sum',
     },
     tree: {
-      emptyText: 'Veri yok'
+      emptyText: 'Veri yok',
     },
     transfer: {
       noMatch: 'Eşleşen veri bulunamadı',
@@ -98,7 +98,7 @@ export default {
       titles: ['Liste 1', 'Liste 2'],
       filterPlaceholder: 'Anahtar kelimeleri gir',
       noCheckedFormat: '{total} adet',
-      hasCheckedFormat: '{checked}/{total} seçildi'
-    }
-  }
-}
+      hasCheckedFormat: '{checked}/{total} seçildi',
+    },
+  },
+};
