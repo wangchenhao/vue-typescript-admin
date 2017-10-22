@@ -21,7 +21,8 @@
     "strictNullChecks": true
   },
   "include": [
-    "./src/**/*.ts"
+    "./src/**/*.ts",
+    "./typings/**/*.ts"
   ],
   "compileOnSave": false
 }

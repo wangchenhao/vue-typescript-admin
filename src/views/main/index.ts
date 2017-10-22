@@ -1,9 +1,9 @@
-import { Vue, Component } from 'vue-property-decorator';
+import { Basis, Component } from '../Basis';
 
 @Component({
   template: require('./layout.html'),
 })
-class Main extends Vue {
+class Main extends Basis {
   constructor() {
     super();
   }

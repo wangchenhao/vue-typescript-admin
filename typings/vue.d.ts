@@ -16,3 +16,7 @@ declare module 'vue/types/vue' {
     $confirm: Function;
   }
 }
+declare module 'axios/index' {
+  export interface AxiosResponse {
+  }
+}

@@ -1,4 +1,5 @@
 var path = require('path')
+var webpack = require('webpack');
 var utils = require('./utils')
 var config = require('../config')
 var svgoConfig = require('../config/svgo-config.json')
@@ -17,13 +18,7 @@ module.exports = {
   },
   resolve: {
     extensions: ['.ts', '.js', '.json'],
-    alias: {
-      'vue$': 'vue/dist/vue.esm.js',
-      '@': resolve('src'),
-      'assets': resolve('src/assets'),
-      'common': resolve('src/common'),
-      'views': resolve('src/views'),
-    }
+    alias: {}
   },
   module: {
     rules: [{
@@ -73,6 +68,10 @@ module.exports = {
     }]
   },
   plugins: [
+    new webpack.DllReferencePlugin({
+      context: __dirname,
+      manifest: require('./vendor_manifest.json')
+    }),
   ]
 }
 
