@@ -1,4 +1,4 @@
-var path = require('path');
+const path = require('path');
 const webpack = require('webpack');
 const vendors = [
   'es6-promise',
@@ -6,12 +6,14 @@ const vendors = [
   'js-cookie',
   'lodash',
   'moment',
-  'vue',
+  'vue/dist/vue.min.js',
   'vuex',
   'vue-i18n',
   'vue-router',
   'vue-class-component',
-  // "element-ui": "^1.4.0",
+  'vue-property-decorator',
+  'vuex-class',
+  'element-ui',
 ];
 
 module.exports = {
@@ -19,7 +21,10 @@ module.exports = {
     vendor: vendors
   },
   resolve: {
-    extensions: [".js", ".jsx"]
+    extensions: [".js", ".jsx"],
+    alias: {
+      'vue': 'vue/dist/vue.min.js',
+    }
   },
   output: {
     path: path.resolve(__dirname, '../static'),
@@ -27,6 +32,9 @@ module.exports = {
     library: '[name]_library'
   },
   plugins: [
+    new webpack.DefinePlugin({
+      'process.env.NODE_ENV': JSON.stringify('production')
+    }),
     new webpack.DllPlugin({
       context: __dirname,
       path: path.resolve(__dirname, '../build/[name]_manifest.json'),

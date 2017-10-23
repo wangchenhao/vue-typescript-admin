@@ -1,32 +1,32 @@
 import { Basis, Component } from '../Basis';
-
 @Component({
   template: require('./layout.html'),
 })
 class Main extends Basis {
-  constructor() {
-    super();
-  }
   mounted() {
     const loadEl = document.getElementById('loading');
     if (loadEl) {
       loadEl.style.display = 'none';
     }
-    this.$http({
-      url: '/public/reset',
-      method: 'post',
-      params: {
-        ID: 12345,
-      },
-      // get 不会发送 data 中的数据
-      data: {
-        firstName: 'Fred',
-      },
-    }).then((response) => {
-      console.log(response);
-    }).catch((error) => {
+    try {
+      this.$http({
+        url: '/public/reset',
+        method: 'post',
+        params: {
+          ID: 12345,
+        },
+        // get 不会发送 data 中的数据
+        data: {
+          firstName: 'Fred',
+        },
+      }).then((response) => {
+        console.log(response);
+      }).catch((error) => {
+        console.log(error);
+      });
+    } catch (error) {
       console.log(error);
-    });
+    }
   }
 
   open() {

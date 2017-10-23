@@ -18,7 +18,9 @@ module.exports = {
   },
   resolve: {
     extensions: ['.ts', '.js', '.json'],
-    alias: {}
+    alias: {
+      'vue': 'vue/dist/vue.min.js',
+    }
   },
   module: {
     rules: [{
@@ -74,4 +76,3 @@ module.exports = {
     }),
   ]
 }
-

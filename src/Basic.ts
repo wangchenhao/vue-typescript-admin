@@ -1,9 +1,8 @@
-import 'es6-promise/auto';
 import _ from 'lodash';
 import Cookie from 'js-cookie';
 import Vue from 'vue';
-import ElementUI from 'element-ui';
 import './assets/style/index.scss';
+import ElementUI from 'element-ui';
 import config from './config';
 import Common from './common';
 import i18n from './i18n';
