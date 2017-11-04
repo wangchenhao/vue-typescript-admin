@@ -2,6 +2,7 @@ var path = require('path')
 var webpack = require('webpack');
 var utils = require('./utils')
 var config = require('../config')
+var vueLoaderConfig = require('./vue-loader.conf')
 var svgoConfig = require('../config/svgo-config.json')
 
 function resolve(dir) {
@@ -27,11 +28,49 @@ module.exports = {
       test: /\.ts$/,
       enforce: 'pre',
       loader: 'tslint-loader'
-    }, {
+    },
+    {
+      test: /\.(js|vue)$/,
+      loader: 'eslint-loader',
+      enforce: 'pre',
+      include: [resolve('src'), resolve('test')],
+      options: {
+        formatter: require('eslint-friendly-formatter')
+      }
+    },
+    {
+      test: /\.vue$/,
+      loader: 'vue-loader',
+      options: vueLoaderConfig
+    },
+    {
+      test: /\.js$/,
+      loader: 'babel-loader',
+      include: [resolve('src'), resolve('test')]
+    },
+    {
+      test: /\.ts$/,
+      loader: 'ts-loader',
+      options: {
+        transpileOnly: true,
+        appendTsSuffixTo: [/\.vue$/]
+      },
+      include: [resolve('src'), resolve('test')]
+    },
+    {
       test: /\.ts$/,
       loader: 'awesome-typescript-loader',
       options: {
+        instance: 'ts-loader',
         transpileOnly: true
+      },
+      include: [resolve('src'), resolve('test')]
+    },
+    {
+      test: /\.pug$/,
+      loader: 'pug-loader',
+      options: {
+        globals: ['process']
       }
     },
     {
@@ -41,15 +80,15 @@ module.exports = {
     {
       test: /\.svg$/,
       use: ['svg-sprite-loader', 'svgo-loader?' + JSON.stringify(svgoConfig)],
-      include: /assets\/icons/
+      include: [resolve('src/assets/icons')]
     },
     {
       test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
       loader: 'url-loader',
-      exclude: /assets\/icons/,
+      exclude: [resolve('src/assets/icons')],
       options: {
         limit: 10000,
-        name: utils.assetsPath('img/[name].[hash:7].[ext]')
+        name: utils.assetsPath('img/[name].[ext]')
       }
     },
     {
@@ -57,7 +96,7 @@ module.exports = {
       loader: 'url-loader',
       options: {
         limit: 10000,
-        name: utils.assetsPath('media/[name].[hash:7].[ext]')
+        name: utils.assetsPath('media/[name].[ext]')
       }
     },
     {
@@ -65,7 +104,7 @@ module.exports = {
       loader: 'url-loader',
       options: {
         limit: 10000,
-        name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
+        name: utils.assetsPath('fonts/[name].[ext]')
       }
     }]
   },

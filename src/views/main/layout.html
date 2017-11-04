@@ -1,15 +1,14 @@
 <div class="wrapper">
   <div class="page-navigation">
-    <!-- <zj-nav></zj-nav> -->
+    <el-menu>
+      <v-menu-item :model="menuList"></v-menu-item>
+    </el-menu>
   </div>
   <div class="page-wrapper">
     <div class="page-header">
-      <!-- <zj-header></zj-header> -->
     </div>
     <div class="page-content">
-      {{ new Date() | dateFormat}} {{$t('warmReminder')}}
-      <el-button type="text" @click="open">点击打开 Message Box</el-button>
-      <el-button type="text" @click="onSwitch">点击切换语言</el-button>
+      <router-view></router-view>
     </div>
     <div class="page-footer">
       <footer class="footer">
@@ -21,3 +20,4 @@
     </div>
   </div>
 </div>
+

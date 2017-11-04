@@ -3,13 +3,13 @@
 import { Vue, i18n } from '../Basic';
 import router from '../router';
 import store from '../store';
-// import App from '../views/main/index';
+import App from '../views/main/index';
 // tslint:disable-next-line:no-unused-expression
 new Vue({
   el: '#app',
   router,
   store,
   i18n,
-  // template: '<app></app>',
-  // components: { App },
+  template: '<app></app>',
+  components: { App },
 });

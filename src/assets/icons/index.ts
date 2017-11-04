@@ -8,12 +8,13 @@ const files: any = require.context('.', true, /\.svg$/);
 const modules: object = {};
 
 files.keys().forEach((key: string) => {
-  if (key === './index.js') { return; }
+  if (key === './index.js') return;
+
   const name: string = key.replace(/(\.\/|\.svg)/g, '');
+
   _.assignIn(modules, {
     [name]: files(key).default,
   });
 });
 
 export default modules;
-

@@ -2,6 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 const vendors = [
   'es6-promise',
+  'qs',
   'axios',
   'js-cookie',
   'lodash',
