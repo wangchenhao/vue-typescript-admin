@@ -4,7 +4,10 @@ module.exports = {
   root: true,
   parser: 'babel-eslint',
   parserOptions: {
-    sourceType: 'module'
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true
+    }
   },
   env: {
     browser: true,
@@ -27,8 +30,10 @@ module.exports = {
     // don't require .vue extension when importing
     'import/extensions': ['error', 'always', {
       'js': 'never',
+      'jsx': 'never',
+      'ts': 'never',
+      'tsx': 'never',
       'vue': 'never',
-      'ts': 'never'
     }],
     // allow optionalDependencies
     'import/no-extraneous-dependencies': ['error', {

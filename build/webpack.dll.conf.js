@@ -1,13 +1,13 @@
 const path = require('path');
 const webpack = require('webpack');
 const vendors = [
-  'es6-promise',
+  'babel-polyfill',
   'qs',
   'axios',
   'js-cookie',
   'lodash',
   'moment',
-  'vue/dist/vue.min.js',
+  'vue/dist/vue.esm.js',
   'vuex',
   'vue-i18n',
   'vue-router',
@@ -24,7 +24,7 @@ module.exports = {
   resolve: {
     extensions: [".js", ".jsx"],
     alias: {
-      'vue': 'vue/dist/vue.min.js',
+      'vue': 'vue/dist/vue.esm.js',
     }
   },
   output: {

@@ -5,7 +5,7 @@ import _ from 'lodash';
 
 const files: any = require.context('.', true, /\.svg$/);
 
-const modules: object = {};
+const modules: { [key: string]: any } = {};
 
 files.keys().forEach((key: string) => {
   if (key === './index.js') return;

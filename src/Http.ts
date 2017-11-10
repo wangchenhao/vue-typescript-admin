@@ -1,4 +1,4 @@
-import axios, { AxiosRequestConfig } from 'axios';
+import axios from 'axios';
 import _ from 'lodash';
 import QS from 'qs';
 import Cookies from 'js-cookie';
@@ -9,6 +9,10 @@ _.assignIn(axios.defaults, {
   // baseURL: '',
   timeout: 30 * 1000,
   headers: { 'Authorization': 'Basic ' + token, 'x-requested-with': 'XMLHttpRequest' },
+  params: {
+    locale: Cookies.get('language'),
+    _: new Date().getTime(),
+  },
   transformRequest: [function (data: any) {
     // Do whatever you want to transform the data
     return QS.stringify(data, { allowDots: true });

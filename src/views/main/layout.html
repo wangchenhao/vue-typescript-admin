@@ -1,23 +1,40 @@
-<div class="wrapper">
-  <div class="page-navigation">
-    <el-menu>
-      <v-menu-item :model="menuList"></v-menu-item>
-    </el-menu>
-  </div>
-  <div class="page-wrapper">
-    <div class="page-header">
-    </div>
-    <div class="page-content">
-      <router-view></router-view>
-    </div>
-    <div class="page-footer">
-      <footer class="footer">
-        <div class="pull-right">
-          © 2016-2018
-          <a>泽佳科技</a>
+<div class="main-page">
+  <div class="page-sidebar">
+    <div class="outer">
+      <div class="wrapper">
+        <div class="inner">
+          <el-menu :collapse="isCollapse">
+            <menu-item v-for="item in menuList" :key="item.id" :model="item" @leaf-node-click="onLeafNodeClick"></menu-item>
+          </el-menu>
         </div>
-      </footer>
+      </div>
     </div>
+  </div>
+  <div class="page-header">
+    <div class="page-header-content">
+      <div class="navicon">
+        <el-button type="text" @click="isCollapse = !isCollapse">
+          <svg-icon name="menu"></svg-icon>
+        </el-button>
+      </div>
+      <div class="middle-content"></div>
+      <div class="avator-content"></div>
+    </div>
+    <v-tags v-model="value" :data="tags" @tag-click="onTagClick" @tag-close="onTagClose">
+      <el-dropdown size="mini" slot="append">
+        <el-button size="mini" type="primary">
+          标签操作
+          <i class="el-icon-arrow-down el-icon--right"></i>
+        </el-button>
+        <el-dropdown-menu slot="dropdown">
+          <el-dropdown-item>关闭所有</el-dropdown-item>
+          <el-dropdown-item>关闭其他</el-dropdown-item>
+        </el-dropdown-menu>
+      </el-dropdown>
+    </v-tags>
+  </div>
+  <div class="page-content">
+    <router-view></router-view>
   </div>
 </div>
 

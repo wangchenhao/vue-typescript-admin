@@ -11,23 +11,18 @@ Vue.use(VueI18n);
 
 const locales = {};
 
-function addLang(key: string, a: object, b: object) {
+function addLang(key, a: object, b: object) {
   _.assignIn(locales, {
     [key]: _.assignIn({}, a, b),
   });
 }
 
 addLang('en', en, eleEN);
-addLang('zh-CN', zhCN, eleZh);
-
-const browserLanguage: string = Cookies.get('lang') || window.navigator.language;
-
-const lang = browserLanguage in locales ? browserLanguage : 'en';
-
-console.log('系统语言:' + lang);
+addLang('zh_CN', zhCN, eleZh);
 
 const i18n = new VueI18n({
-  locale: lang,
+  locale: Cookies.get('language'),
+  fallbackLocale: 'zh_CN',
   messages: locales,
 });
 

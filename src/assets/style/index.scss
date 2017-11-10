@@ -1,71 +1,63 @@
-@import './_base.scss';
-.wrapper {
-  width: 100%;
-  height: 100%;
-  min-width: 1024px;
+@import './theme/reset.css';
+@import './theme/index.css';
+@import '~vue2-animate/dist/vue2-animate.css';
+[v-cloak] {
+  display: none;
 }
 
-.page-navigation,
-.page-wrapper {
-  height: 100%;
-  overflow: hidden;
+* {
+  box-sizing: inherit;
 }
 
-.page-wrapper {
-  transition: margin .5s, width .5s;
+html {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
 }
 
-.page-navigation {
-  width: 240px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  overflow-y: scroll;
-  transition: width .5s;
-}
-
-.wrapper.hide-navbar.page-navigation {
-  width: 0;
-}
-
-.wrapper.hide-navbar.page-nav {
-  opacity: 0;
-}
-
-.wrapper.hide-navbar.page-wrapper {
-  width: 100%;
-  min-width: 1024px;
-  margin-left: 0;
-}
-
-.page-wrapper {
-  margin-left: 240px;
-  width: calc(100% - 240px);
-  min-width: calc(1024px - 240px);
-}
-
-.page-header {
-  height: 49px;
-  background-color: #fff;
-  border-bottom: 1px solid #e3d3d3;
-}
-
-.page-content {
+html,
+body {
   position: relative;
-  height: calc(100% - 90px);
-  background: #f1f4f5;
-}
-
-.page-footer {
-  height: 39px;
-  border-top: 1px solid rgb(231, 234, 236);
-  background-color: rgb(238, 241, 246);
-}
-
-.footer {
-  height: 100%;
-  padding: 10px 20px;
+  overflow: hidden;
   box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #d2ecff;
 }
 
+.pull-right {
+  float: right !important;
+}
+
+.pull-left {
+  float: left !important;
+}
+
+.vertical-align {
+  font-size: 0;
+}
+
+.vertical-align:before {
+  display: inline-block;
+  height: 100%;
+  content: '';
+  vertical-align: middle;
+}
+
+.vertical-align-middle,
+.vertical-align-bottom {
+  font-size: initial;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.vertical-align-middle {
+  vertical-align: middle;
+}
+
+.vertical-align-bottom {
+  vertical-align: bottom;
+}

@@ -18,19 +18,19 @@ module.exports = {
       config.build.assetsPublicPath : config.dev.assetsPublicPath
   },
   resolve: {
-    extensions: ['.ts', '.js', '.json'],
+    extensions: ['.ts', '.tsx', '.js', '.jsx', '.json'],
     alias: {
-      'vue': 'vue/dist/vue.min.js',
+      'vue': 'vue/dist/vue.esm.js',
     }
   },
   module: {
     rules: [{
-      test: /\.ts$/,
+      test: /\.tsx?$/,
       enforce: 'pre',
       loader: 'tslint-loader'
     },
     {
-      test: /\.(js|vue)$/,
+      test: /\.(jsx?|vue)$/,
       loader: 'eslint-loader',
       enforce: 'pre',
       include: [resolve('src'), resolve('test')],
@@ -41,27 +41,28 @@ module.exports = {
     {
       test: /\.vue$/,
       loader: 'vue-loader',
-      options: vueLoaderConfig
+      options: Object.assign(vueLoaderConfig, {
+        loaders: {
+          ts: "awesome-typescript-loader",
+          tsx: "awesome-typescript-loader"
+        }
+      })
     },
     {
-      test: /\.js$/,
+      test: /\.jsx?$/,
       loader: 'babel-loader',
       include: [resolve('src'), resolve('test')]
     },
     {
-      test: /\.ts$/,
-      loader: 'ts-loader',
-      options: {
-        transpileOnly: true,
-        appendTsSuffixTo: [/\.vue$/]
-      },
-      include: [resolve('src'), resolve('test')]
-    },
-    {
-      test: /\.ts$/,
+      test: /\.tsx?$/,
       loader: 'awesome-typescript-loader',
       options: {
-        instance: 'ts-loader',
+        useCache: true,
+        useBabel: true,
+        babelOptions: {
+          "babelrc": true
+        },
+        useTranspileModule: true,
         transpileOnly: true
       },
       include: [resolve('src'), resolve('test')]
@@ -106,7 +107,8 @@ module.exports = {
         limit: 10000,
         name: utils.assetsPath('fonts/[name].[ext]')
       }
-    }]
+    }
+    ]
   },
   plugins: [
     new webpack.DllReferencePlugin({

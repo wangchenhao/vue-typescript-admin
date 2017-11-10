@@ -5,9 +5,9 @@
  */
 import _ from 'lodash';
 
-const files: any = require.context('.', true, /\.ts$/);
+const files: any = require.context('.', true, /\.(ts|vue)$/);
 
-const modules: object = {};
+const modules: { [key: string]: any } = {};
 
 files.keys().forEach((key: string) => {
   // 排除本文件
@@ -25,11 +25,11 @@ files.keys().forEach((key: string) => {
   let name: string;
   if (pathArray.length === 1) {
     // 只是一级目录，取文件名
-    name = key.replace(/(\.\/|\.ts)/g, '');
+    name = key.replace(/(\.\/|\.(ts|vue))/g, '');
   } else {
     if (lastPath && lastPath.indexOf('index') === -1) {
       // 文件名如果不是 index 使用文件名
-      name = key.replace(/(\.\/|\.ts)/g, '');
+      name = key.replace(/(\.\/|\.(ts|vue))/g, '');
     } else {
       // 多级目录 并且 文件名为 index 的取文件上级文件夹名
       name = pathArray[pathArray.length - 2];

@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "jsx": "preserve",
     "lib": [
       "dom",
       "es5",
@@ -17,11 +18,11 @@
     "isolatedModules": false,
     "declaration": false,
     "noImplicitAny": true,
-    "removeComments": false,
+    "removeComments": true,
     "strictNullChecks": true
   },
   "include": [
-    "./src/**/*.ts",
+    "./src/**/*.tsx?",
     "./typings/**/*.ts"
   ],
   "compileOnSave": false

@@ -1,0 +1,92 @@
+.tabs-nav-wrap {
+  position: relative;
+  overflow: hidden;
+  height: 40px;
+  background-color: #f5f7fa;
+  &.is-scrollable {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .tabs-nav-prev,
+  .tabs-nav-next {
+    position: absolute;
+    padding: 0 4px;
+    cursor: pointer;
+    color: #878d99;
+    font-size: 14px;
+    line-height: 42px;
+    &.is-disabled {}
+  }
+  .tabs-nav-prev {
+    left: 0;
+  }
+  .tabs-nav-next {
+    right: 0;
+  }
+  .tabs-nav-scroll {
+    overflow: hidden;
+    .tabs-nav {
+      position: relative;
+      z-index: 2;
+      float: left;
+      transition: transform .3s;
+      white-space: nowrap;
+    }
+  }
+}
+
+.tabs-item {
+  display: inline-block;
+  height: 40px;
+  padding: 0 10px; // background-color: #e4e8f1;
+  cursor: pointer;
+  line-height: 40px;
+  &.is-active {
+    color: #409eff;
+    background-color: #fff;
+    .tab-dot-inner {
+      background-color: #2d8cf0;
+    }
+    .el-icon-close {
+      width: 14px;
+    }
+  }
+  &.is-disabled {
+    color: #999;
+    background-color: #f5f5f5;
+  }
+  &.is-closable:hover {
+    .el-icon-close {
+      width: 14px;
+    }
+  }
+  .tab-dot-inner,
+  .tab-text {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .tab-dot-inner {
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background-color: #e9eaec;
+  }
+  .tab-text {}
+  .el-icon-close {
+    position: relative;
+    overflow: hidden;
+    width: 0;
+    height: 14px;
+    margin-left: 5px;
+    transition: all .3s cubic-bezier(.645, .045, .355, 1);
+    text-align: center;
+    vertical-align: middle;
+    color: #999;
+    border-radius: 50%;
+    &:hover {
+      color: #fff;
+      background-color: #b4bccc;
+    }
+  }
+}
